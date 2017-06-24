@@ -38,7 +38,7 @@ namespace ZendeskApi.Client.Models
         public string Locale { get; set; }
 
         [JsonProperty("locale_id")]
-        public int? LocalId { get; set; }
+        public int? LocaleId { get; set; }
 
         [JsonProperty("organization_id")]
         public long? OrganizationId { get; set; }
